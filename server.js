@@ -71,6 +71,6 @@ app.get('/api/:year', (req, res) => {
     
 })
 
-app.listen(PORT, () => {
+app.listen(process.env.PORT || PORT, () => {
     console.log(`The server is now running on ${PORT}! Go gettit!`)
 })
