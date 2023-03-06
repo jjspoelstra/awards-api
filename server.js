@@ -65,7 +65,6 @@ app.get('/api/:year', (req, res) => {
     const year = req.params.year
     if (awardsWinners[year]){
         res.json(awardsWinners[year])
-        console.log(res.json(awardsWinners[year]))
     } else {
         res.json(awardsWinners['unknown'])
     }
