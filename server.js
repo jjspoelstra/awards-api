@@ -34,7 +34,7 @@ const awardsWinners = {
         rookieFirst: ['Jae\'Sean Tate', 'Tyrese Haliburton', 'Saddiq Bey', 'LaMelo Ball', 'Anthony Edwards'],
         rookieSecond: ['Desmond Bane', 'Immanuel Quickley', 'Patrick Williams', 'Isaiah Stewart', 'Isaac Okoro'],
         defenseFirst: ['Jrue Holiday', 'Draymond Green', 'Rudy Gobert', 'Giannis Antetokounmpo', 'Ben Simmons'],
-        defenseSecond: ['Jimmy Butler', 'Kawhi Leonard', 'Joel Embiid', 'Matisse Thubulle', 'Bam Adebayo']
+        defenseSecond: ['Jimmy Butler', 'Kawhi Leonard', 'Joel Embiid', 'Matisse Thybulle', 'Bam Adebayo']
     },
     '2020':{
         'mvp': 'Giannis Antetokounmpo',
