@@ -1,7 +1,9 @@
 const express = require('express')
 const app = express()
+const cors = require('cors')
 const PORT = 8000
 
+app.use(cors())
 
 const awardsWinners = {
     '2022': {
@@ -51,6 +53,9 @@ const awardsWinners = {
         rookieSecond: ['Terence Davis', 'Rui Hachimura', 'P.J. Washington', 'Coby White', 'Tyler Herro'],
         defenseFirst: ['Anthony Davis', 'Marcus Smart', 'Rudy Gobert', 'Giannis Antetokounmpo', 'Ben Simmons'],
         defenseSecond: ['Brook Lopez', 'Patrick Beverly', 'Eric Bledsoe', 'Kawhi Leonard', 'Bam Adebayo']
+    }, 
+    'unknown':{
+        'data': 'unknown'
     }
 }
 
